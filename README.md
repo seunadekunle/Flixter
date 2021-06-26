@@ -25,7 +25,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/seunadekunle/ToDo/blob/master/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/seunadekunle/Flixter/blob/master/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/).
 
