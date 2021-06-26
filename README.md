@@ -26,6 +26,7 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/seunadekunle/Flixter/blob/master/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/seunadekunle/Flixter/blob/master/walkthrough2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/).
 
@@ -33,6 +34,7 @@ GIF created with [Kap](https://getkap.co/).
 
 The ui had to be experimented with to ensure that everything worked fine.
 Improvements can probably be made to make the app more efficient.
+Had to use multiple gifs due to size constraint.
 
 
 ## License
