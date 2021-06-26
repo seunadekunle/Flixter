@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_margin="0dp"
+    android:padding="0dp">
+
+    <TextView
+        android:id="@+id/mvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_toEndOf="@+id/mvPoster"
+        android:fontFamily="sans-serif-black"
+        android:gravity="left"
+        android:maxLines="2"
+        android:padding="0dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="27.5sp" />
+
+    <RatingBar
+        android:id="@+id/rbRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mvTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/mvPoster"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:rating="4.5"
+        android:stepSize="0.5"
+        android:theme="@style/CustomRatingBar" />
+
+    <TextView
+        android:id="@+id/rtDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rbRating"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2.5dp"
+        android:layout_toEndOf="@+id/mvPoster"
+        android:gravity="left"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/mvPoster"
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        tools:src="@tools:sample/avatars" />
+
+    <View
+        android:id="@+id/overlay"
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:layout_alignStart="@+id/mvPoster"
+        android:layout_alignTop="@+id/mvPoster"
+        android:layout_alignEnd="@+id/mvPoster"
+        android:layout_alignBottom="@+id/mvPoster"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="0dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/poster_bg"></View>
+
+    <ImageView
+        android:id="@+id/mvIcon"
+        android:layout_width="176dp"
+        android:layout_height="168dp"
+        android:layout_alignStart="@+id/mvPoster"
+        android:layout_alignTop="@+id/mvPoster"
+        android:layout_alignEnd="@+id/mvPoster"
+        android:layout_alignBottom="@+id/mvPoster"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="37.5dp"
+        android:layout_marginTop="90.5dp"
+        android:layout_marginEnd="37.5dp"
+        android:layout_marginBottom="90.5dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:onClick="goToTrailer"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/mvDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rtDetail"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:layout_toEndOf="@+id/mvPoster"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="left"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textColor="@color/dark_grey"
+        android:textSize="17.5sp" />
+
+
+</RelativeLayout>
