@@ -34,7 +34,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbe975b4-c88f-4602-8cbc-5ab2946bc918" name="Default Changelist" comment="Added gradle" />
+    <list default="true" id="fbe975b4-c88f-4602-8cbc-5ab2946bc918" name="Default Changelist" comment="Added gradle">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,14 +298,15 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="645" y="294" key="AndroidProcessChooserDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1624490212354" />
-    <state x="751" y="426" key="Github.ShareDialog" timestamp="1624673196469">
+    <state x="751" y="426" key="Github.ShareDialog" timestamp="1624673230899">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="751" y="426" key="Github.ShareDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1624673196469" />
+    <state x="751" y="426" key="Github.ShareDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1624673230899" />
     <state x="751" y="415" key="Github.ShareDialog/0.25.1792.1025@0.25.1792.1025" timestamp="1624671074896" />
-    <state x="641" y="182" key="Github.UntrackedFilesDialog" timestamp="1624663728251">
-      <screen x="0" y="25" width="1792" height="1025" />
+    <state x="641" y="172" key="Github.UntrackedFilesDialog" timestamp="1624673236200">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="641" y="172" key="Github.UntrackedFilesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1624673236200" />
     <state x="641" y="182" key="Github.UntrackedFilesDialog/0.25.1792.1025@0.25.1792.1025" timestamp="1624663728251" />
     <state width="1740" height="264" key="GridCell.Tab.0.bottom" timestamp="1624664978677">
       <screen x="0" y="25" width="1792" height="1025" />

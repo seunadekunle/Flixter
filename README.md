@@ -1,10 +1,10 @@
-# Project 1 - *Flixter*
+# Project 2 - *Flixter*
 
 **To** is an android app that allows users to see the now playing apps on android.
 
 Submitted by: **Seun Adekunle**
 
-Time spent: **25** hours spent in total
+Time spent: **27.5** hours spent in total
 
 ## User Stories
 
@@ -32,7 +32,7 @@ GIF created with [Kap](https://getkap.co/).
 ## Notes
 
 The ui had to be experimented with to ensure that everything worked fine.
-Probably improvements can be made to make the app more efficient.
+Improvements can probably be made to make the app more efficient.
 
 
 ## License
